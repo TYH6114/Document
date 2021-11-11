@@ -10,8 +10,8 @@ GOAL: Get the highest throughput with lowest latecy
 ```
 
 ## Main
-* **Configuration the tree (per interface) of behaviours 
-* **Traffic enters this tree at the root and is routed according to filtering until it ends up at a leaf of the tree
+* **Configuration the tree (per interface) of behaviours** 
+* **Traffic enters this tree at the root and is routed according to filtering until it ends up at a leaf of the tree**
 
 ## Filter
 ** Must have a classifier, which is used to select packet (and typically route it to specific qdisc, may have a policer which can do things like "if exceeding this rate drop a packet"  - Seems rarely used , presumably too heavy-handed) 
