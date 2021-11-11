@@ -8,9 +8,9 @@
 
 
 
-[1]: <https://www.dropbox.com/>
-[2]: <https://github.com/>
-[3]: <https://www.google.com.vn/>
+[1]: https://www.dropbox.com/
+[2]: https://github.com/
+[3]: https://www.google.com.vn/
 
 
 ## Hightlight
