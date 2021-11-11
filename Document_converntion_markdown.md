@@ -13,6 +13,22 @@
 [3]: <https://www.google.com.vn/>
 
 
+## Hightlight
+* Phần này sẽ mô tả chi tiết cho hightlight theo định danh dữ liệu *
+** Phần này sẽ mô tả chi tiết cho hightlight theo định danh dữ liệu **
+*** Phần này sẽ mô tả chi tiết cho hightlight theo định danh dữ liệu ***
+
+` phần này inline code `
+
+```python
+	print("Say hello")
+```
+
+```c
+	#include <stdio.h>
+	#include <conio.h>
+```
+
 
 
 
