@@ -14,9 +14,9 @@
 
 
 ## Hightlight
-* Phần này sẽ mô tả chi tiết cho hightlight theo định danh dữ liệu 
-** Phần này sẽ mô tả chi tiết cho hightlight theo định danh dữ liệu 
-*** Phần này sẽ mô tả chi tiết cho hightlight theo định danh dữ liệu
+*Phần này sẽ mô tả chi tiết cho hightlight theo định danh dữ liệu* 
+**Phần này sẽ mô tả chi tiết cho hightlight theo định danh dữ liệu**
+***Phần này sẽ mô tả chi tiết cho hightlight theo định danh dữ liệu***
 
 ` phần này inline code `
 
