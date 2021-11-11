@@ -1,3 +1,38 @@
+# Tc in linux
+**Note : help to control flow of packet with some special technical** 
+
+* Throttling Network data
+* Queueing 
+* Dropping the occasional packet
+
+```
+GOAL: Get the highest throughput with lowest latecy 
+```
+
+## Main
+** Configuration the tree (per interface) of behaviours 
+** Traffic enters this tree at the root and is routed according to filtering until it ends up at a leaf of the tree
+
+## Filter
+** Must have a classifier, which is used to select packet (and typically route it to specific qdisc, may have a policer which can do things like "if exceeding this rate drop a packet"  - Seems rarely used , presumably too heavy-handed) 
+
+
+
+**We have most common classifier types :
+* u32 
+```
+Can inspect all of a packet
+```
+* fw
+```
+useful when you use iptables to mark the packets metadata
+```
+* tcindex
+```
+useful only for DSMARK
+```
+* route, rsvp, rsvp6
+
 # TEST TABLE CONVENTION
 
 | Plugin | Readme |
